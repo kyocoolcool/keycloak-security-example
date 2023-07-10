@@ -13,3 +13,6 @@ management:
   metrics:
     tags:
       application: ${APP_NAME}
+
+my:
+  message: prod-message

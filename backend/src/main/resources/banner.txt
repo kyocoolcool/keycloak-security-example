@@ -1,0 +1,8 @@
+  ${AnsiColor.CYAN}__  __   _   _______               _____
+ ${AnsiColor.CYAN}|  \/  | (_) |__   __|     /\      / ____|
+ ${AnsiColor.CYAN}| \  / |  _     | |       /  \    | |
+ ${AnsiColor.CYAN}| |\/| | | |    | |      / /\ \   | |
+ ${AnsiColor.CYAN}| |  | | | |    | |     / ____ \  | |____
+${AnsiColor.CYAN} |_|  |_| |_|    |_|    /_/    \_\  \_____|
+${AnsiColor.RED} ${application.title} ${application.version}
+${AnsiColor.RED} Powered by Spring Boot ${spring-boot.version}

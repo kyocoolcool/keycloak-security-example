@@ -13,3 +13,6 @@ management:
   metrics:
     tags:
       application: movies-backend
+
+my:
+  message: dev-message

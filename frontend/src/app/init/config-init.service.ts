@@ -20,8 +20,8 @@ export class ConfigInitService {
         })
         .pipe(
           catchError((error) => {
-            console.log(error)
-            return of(null)
+            console.log(error);
+            return of(null);
           } ),
           mergeMap((response) => {
             if (response && response.body) {
@@ -34,6 +34,6 @@ export class ConfigInitService {
   }
 
   private getConfigFile(): string {
-    return environment.configFile
+    return environment.configFile;
   }
 }

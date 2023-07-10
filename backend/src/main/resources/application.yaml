@@ -1,5 +1,6 @@
 spring:
   profiles:
+#    active: dev
     active: @active-profiles@
   security:
     ignored: "/actuator/**"
@@ -8,7 +9,7 @@ server:
   port: 9000
 
 keycloak:
-  jwk: ${keycloak.url}/auth/realms/${keycloak.realm}/protocol/openid-connect/certs
+  jwk: ${keycloak.url}/realms/${keycloak.realm}/protocol/openid-connect/certs
 
 logging:
   level:
@@ -23,3 +24,7 @@ management:
     web:
       exposure:
         include: "*"
+
+my:
+  message: default-message
+

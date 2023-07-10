@@ -20,7 +20,7 @@ export interface Problem {
 })
 export class MovieBackendService {
 
-  private readonly backendUrl = '/movies'
+  private readonly backendUrl = '/movies';
 
   constructor(private http: HttpClient) { }
 
